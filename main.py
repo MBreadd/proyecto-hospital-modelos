@@ -6,7 +6,7 @@ def main():
     print("Simulación de saturación hospitalaria")
     print("Ejecutando escenarios...\n")
 
-    datos = ejecutar_experimentos(replicas=10)
+    datos = ejecutar_experimentos(replicas=100)
     resumen = resumir_resultados(datos)
 
     datos.to_csv("resultados_detallados.csv", index=False)
