@@ -1,0 +1,4 @@
+escenario,llegadas,atendidos,pendientes,espera_media,cola_maxima
+S1 - Sin influencia,158.6,158.3,0.3,70.34,76.6
+S2 - Con influencia,160.0,160.0,0.0,104.75,116.8
+S3 - Con medidas,160.0,160.0,0.0,101.04,112.8
